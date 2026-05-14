@@ -2,12 +2,11 @@
 title: "그래프이론"
 layout: single
 permalink: /math/graphs/
-sidebar:
-    nav: "sidebar-main"
+author_profile: true
 ---
 
-{% assign posts = site.posts | where_exp: "post", "post.categories contains 'math' and post.subcategories contains '그래프이론'" %}
-
-{% for post in posts %}
-  {% include archive-single.html post=post type="list" %}
+{% for post in site.posts %}
+  {% if post.categories contains "math" and post.subcategories contains "그래프이론" %}
+    {% include archive-single.html type="list" %}
+  {% endif %}
 {% endfor %}
