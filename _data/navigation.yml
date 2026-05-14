@@ -15,5 +15,5 @@ sidebar-main:
         url: /biology/bioexp
   - title: "Math"
     children:
-      - title: "그래프 이론"
+      - title: "그래프이론"
         url: /math/graphs
