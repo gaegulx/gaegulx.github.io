@@ -6,7 +6,8 @@ sidebar:
     nav: "sidebar-main"
 ---
 
-{% assign posts = site.posts | where: "categories", "math" | where: "subcategories", "그래프이론"%}
+{% assign posts = site.posts | where_exp: "post", "post.categories contains 'math' and post.subcategories contains '그래프이론'" %}
+
 {% for post in posts %}
-    {% include archive-single.html post=post type="list" %}
+  {% include archive-single.html post=post type="list" %}
 {% endfor %}
