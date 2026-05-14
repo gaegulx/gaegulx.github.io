@@ -1,14 +1,16 @@
 ---
 title: "[생물학및실험] 유전적 부동"
 layout: single
-author_profle: true
 categories:
     - biology
+subcategories:
+    - 생물학및실험
 tags:
     - genetics
     - evolution
 toc: true
 toc-sticky: true
+author_profile: true
 ---
 Genetic Drift(유전적 부동)은 우연에 의한 유전자 풀의 변화를 말합니다. 이는 대부분 작은 크기의 개체군에서 벌어나며, 크게 두 가지 기전을 통해 이루어집니다.
 

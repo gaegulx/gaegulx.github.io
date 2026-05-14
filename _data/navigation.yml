@@ -6,3 +6,14 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+sidebar-main:
+  - title: "Biology"
+    children:
+      - title: "논문리뷰"
+        url: /biology/paper
+      - title: "생물학및실험"
+        url: /biology/bioexp
+  - title: "Math"
+    children:
+      - title: "그래프 이론"
+        url: /math/graphs

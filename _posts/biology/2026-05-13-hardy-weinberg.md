@@ -1,14 +1,16 @@
 ---
 title: "[생물학및실험] Hardy-Weinberg 법칙"
 layout: single
-author_profile: true
 categories:
     - biology
+subcategories:
+    - 생물학및실험
 tags:
     - genetics
 toc: true
 toc-sticky: true
 mathjax: true
+author_profile: true
 ---
 Hardy-Weinberg 법칙은 집단유전학의 가장 기본적인 모델입니다. 여기서 Hardy라는 이름이 꽤나 익숙하신 분들이 계실 수도 있는데, Hardy-Weinberg 법칙에서
 Hardy는 수학자 해럴드 하디를 가리키는 것이 맞습니다. 라마누잔을 발굴해낸 것으로 유명한 그 하디 맞아요.
