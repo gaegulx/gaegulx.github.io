@@ -17,3 +17,7 @@ sidebar-main:
     children:
       - title: "그래프이론"
         url: /math/graphs
+  - title: "Record"
+    children:
+      - title: "일기"
+        url: "record/daily"
