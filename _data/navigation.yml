@@ -20,4 +20,8 @@ sidebar-main:
   - title: "Record"
     children:
       - title: "일기"
-        url: "record/daily"
+        url: /record/daily
+  - title: "Competitive Programming"
+    children:
+      - title: "문제풀이"
+        url: /cp/problem_solving
