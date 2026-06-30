@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "gaegulx"
-  avatar           : "/assets/images/gaegulx_profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/gaegulx_profile_2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "어느 시대든, 과거도 미래도 전부 현재에 있으니"
   location         : "한국과학영재학교"
   email            :
