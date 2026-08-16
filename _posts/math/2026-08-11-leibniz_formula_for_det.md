@@ -12,9 +12,9 @@ toc-sticky: true
 mathjax: true
 author_profile: true
 ---
-얼마 전 rootenter님께 추천받은 ‘Spectra of Graphs’라는 자료를 읽던 중 다음과 같은 내용을 발견하게 됩니다.
+얼마 전 ‘Spectra of Graphs’라는 자료를 읽던 중 다음과 같은 내용을 발견하게 됩니다.
 
-> $\Gamma$가 $n$개 정점의 유향그래프일 때, 유향 사이클의 union으로 이루어진 유향 부분 그래프 $C$에 대해 $c(C)$를 $c(C)$이클 개수라 하자. 이때 $\Gamma$의 특성다항식 $p_A(t) = \text{det}(tI - A)$는 $\sum c_it^{n - i}$로 전개될 수 있다. (여기서 $c_i = \sum_C (-1)^{c(C)}$이다.)
+> $\Gamma$가 $n$개 정점의 유향그래프일 때, 유향 사이클의 union으로 이루어진 유향 부분 그래프 $C$에 대해 $c(C)$를 사이클 개수라 하자. 이때 $\Gamma$의 특성다항식 $p_A(t) = \text{det}(tI - A)$는 $\sum c_it^{n - i}$로 전개될 수 있다. (여기서 $c_i = \sum_C (-1)^{c(C)}$이다.)
 
 근데 이게 왜 될까요? 증명은요? 다행히도, 바로 다음 문단에서 그걸 다루는 것처럼 보입니다.
 
